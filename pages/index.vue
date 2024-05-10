@@ -2,7 +2,7 @@
     <div class="wrapper">
         <v-btn>Action</v-btn>
         <h1>Creation</h1>
-        <pre>{{ master }}</pre>
+        <pre>{{ creation }}</pre>
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
     name: 'HomePage',
     data() {
         return {
-            master: {
+            creation: {
                 TheAll: {
                     NickName: 'The Spirit',
                     Reality: 'Divine Geometry',
@@ -24,7 +24,7 @@ export default {
                     SelfActualizations: {
                         TheOne: {
                             NickName: 'The Father',
-                            Reality: 'Substaintial Creator',
+                            Reality: 'Substantial Creator',
                             State: 'The Father is surrounded by light.',
                             Features: [
                                 'Chief of all Realms, Producing all Realms',
